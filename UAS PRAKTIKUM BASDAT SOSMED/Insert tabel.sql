@@ -25,8 +25,8 @@ INSERT INTO comment (user_id, post_id, content, created_at) VALUES
 -- tabel like
 INSERT INTO `like` (user_id, post_id) VALUES
 (2, 1),
-(3, 1),
-(1, 2);
+(3, 2),
+(1, 3);
 
 -- tabel share
 INSERT INTO share (user_id, post_id, shared_at) VALUES
